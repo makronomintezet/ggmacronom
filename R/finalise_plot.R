@@ -14,7 +14,7 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 finalise_plot <- function (plot_name = ggplot2::last_plot(),
-                           source_name = str_c("Saját szekesztés, ", Sys.Date()),
+                           source_name = str_c("Saját szerkesztés, ", Sys.Date()),
                            save_filepath = str_c(getwd(), "/plot.svg"),
                            width_pixels = 640, height_pixels = 450,
                            save = FALSE
