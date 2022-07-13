@@ -25,7 +25,7 @@ finalise_plot <- function (plot_name = ggplot2::last_plot(),
     )
 
   footer <- grid::grobTree(grid::textGrob(source_name,
-                                          x = 0.05, hjust = 0.1, y = .3, gp = grid::gpar(fontsize = 12, col = "gray30", fontfamily = "Arial", fontface = "italic")),
+                                          x = 0.05, hjust = 0.1, y = .3, gp = grid::gpar(fontsize = 12, col = "gray30", fontfamily = "sans", fontface = "italic")),
                            grid::rasterGrob(png::readPNG(logo_image_path), x = .85, y = .5,  width = .3))
 
   pieces <- c("subtitle", "title", "caption")

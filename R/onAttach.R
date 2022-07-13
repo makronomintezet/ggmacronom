@@ -1,8 +1,8 @@
 .onAttach <- function(...) {
   library(ggplot2)
   library(showtext)
-  windowsFonts(A = windowsFont("Arial"))
-  # font_add_google("Arial", "Arial")
+  windowsFonts(A = windowsFont("TT sans"))
+  # font_add_google("sans", "sans")
   showtext_auto()
 
   update_geom_defaults("point", list(size = 1.4, shape = 21, color = "black",
@@ -11,8 +11,8 @@
   update_geom_defaults("tile", list(color = "black"))
   update_geom_defaults("col", list(color = "black",
                                    fill = ggmacronom::macronom_colors("blue")))
-  update_geom_defaults("label", list(family = "Arial"))
-  update_geom_defaults("text", list(family = "Arial"))
+  update_geom_defaults("label", list(family = "sans"))
+  update_geom_defaults("text", list(family = "sans"))
 
   ggthemr::ggthemr(
     ggthemr::define_palette(
