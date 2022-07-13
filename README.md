@@ -8,7 +8,7 @@ README
 To install the following package, please use:
 
 ``` r
-devtools::install_github("makronom-intezet/ggmacronom")
+devtools::install_github("makronomintezet/ggmacronom")
 ```
 
 ``` r

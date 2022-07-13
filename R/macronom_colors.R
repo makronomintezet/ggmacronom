@@ -1,22 +1,9 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
 
-macronom_colors <- function(x = 1:10) {
-
-  mycolors <- c("#000000", "#a39661", "#C8C0A0", "#8f8f8f", "#3d5481", "#e2c153", "#6c86a0", "#6c2111", "#666f50", "#daac92")
-  names(mycolors) <- c("black", "brown", "brown60", "grey", "blue", "yellow", "lightblue", "burgundy", "olivia", "powder")
+macronom_colors <- function(x = 1:13) {
+  
+  
+  mycolors <- c("#000000", "#9D9062", "#548235", "#7f7f7f", "#3d5481", "#6c2111", "#fcc607", "#daac92", "#C8C0A0", "#6c86a0",    "#666f50", "#d26413")
+  names(mycolors) <- c("black", "brown1", "green1", "grey", "blue", "burgundy", "yellow1", "powder", "brown3",  "lightblue",  "olivia","bronze")
 
   if (is.null(x)) {
     p <- mycolors %>%

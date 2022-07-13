@@ -15,7 +15,7 @@ library(tidyverse)
 To install the following package, please use:
 
 ```{r eval = F}
-devtools::install_github("makronom-intezet/ggmacronom")
+devtools::install_github("makronomintezet/ggmacronom")
 ```
 
 ```{r message=FALSE, warning = F, results='hide'}
@@ -75,8 +75,17 @@ p_pretty <- p +
 p_pretty
 ```
 
-### Add macronom logo and caption below
+### Add Makronom logo and caption below
 
 ```{r}
 finalise_plot(p_pretty, save = F)
 ```
+
+Available Makronom colors
+
+```{r}
+
+macronom_colors(NULL)
+
+```
+
