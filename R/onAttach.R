@@ -1,7 +1,8 @@
 .onAttach <- function(...) {
   library(ggplot2)
   library(showtext)
-  font_add_google("Arial", "Arial")
+  windowsFonts(A = windowsFont("Arial"))
+  # font_add_google("Arial", "Arial")
   showtext_auto()
 
   update_geom_defaults("point", list(size = 1.4, shape = 21, color = "black",
