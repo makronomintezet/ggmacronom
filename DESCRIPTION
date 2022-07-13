@@ -1,0 +1,10 @@
+Package: ggmacronom
+Type: Package
+Title: Converts ggplot2 objects to align with the image of Makronom Institute
+Version: 0.1.0
+Author: Marcell Granat and Balint Mazzag
+Maintainer: Makronom Institute <makronomintezet@gmail.com>
+Description: Theme consists of plotting outlines, color schemes and adding logos to the finalised plots.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
